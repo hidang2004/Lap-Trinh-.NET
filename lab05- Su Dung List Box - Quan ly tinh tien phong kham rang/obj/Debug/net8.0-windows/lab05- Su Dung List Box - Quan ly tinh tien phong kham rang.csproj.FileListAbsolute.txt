@@ -1,0 +1,19 @@
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\bin\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.exe
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\bin\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.deps.json
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\bin\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.runtimeconfig.json
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\bin\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.dll
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\bin\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.pdb
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05__Su_Dung_List_Box___Quan_ly_tinh_tien_phong_kham_rang.Form1.resources
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.csproj.GenerateResource.cache
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.AssemblyInfoInputs.cache
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.AssemblyInfo.cs
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.csproj.CoreCompileInputs.cache
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.dll
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\refint\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.dll
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.pdb
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.genruntimeconfig.cache
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\ref\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.dll
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05__Su_Dung_List_Box___Quan_ly_tinh_tien_phong_kham_rang.Thaotacso.resources
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05__Su_Dung_List_Box___Quan_ly_tinh_tien_phong_kham_rang.frmSinhvien.resources
+D:\HOCHANH\LT.NET\lab05- Su Dung List Box - Quan ly tinh tien phong kham rang\obj\Debug\net8.0-windows\lab05__Su_Dung_List_Box___Quan_ly_tinh_tien_phong_kham_rang.Properties.Resources.resources

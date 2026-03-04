@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lap07-QuanLyNhanVien Sử Dụng list view", "lap07-QuanLyNhanVien Sử Dụng list view.csproj", "{3ABF17A6-DF13-4990-9CC7-147D43DB4526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABF17A6-DF13-4990-9CC7-147D43DB4526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABF17A6-DF13-4990-9CC7-147D43DB4526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABF17A6-DF13-4990-9CC7-147D43DB4526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABF17A6-DF13-4990-9CC7-147D43DB4526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB094B2B-804A-4E30-9DBA-7C6CC0215F88}
+	EndGlobalSection
+EndGlobal

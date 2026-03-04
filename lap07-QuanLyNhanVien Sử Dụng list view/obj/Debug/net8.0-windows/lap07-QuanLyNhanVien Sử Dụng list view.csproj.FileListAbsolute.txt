@@ -1,0 +1,16 @@
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\bin\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.exe
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\bin\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.deps.json
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\bin\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.runtimeconfig.json
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\bin\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.dll
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\bin\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.pdb
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07_QuanLyNhanVien_Sử_Dụng_list_view.Form1.resources
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.csproj.GenerateResource.cache
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.AssemblyInfoInputs.cache
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.AssemblyInfo.cs
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.csproj.CoreCompileInputs.cache
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.dll
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\refint\lap07-QuanLyNhanVien Sử Dụng list view.dll
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.pdb
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\lap07-QuanLyNhanVien Sử Dụng list view.genruntimeconfig.cache
+D:\HOCHANH\LT.NET\lap07-QuanLyNhanVien Sử Dụng list view\obj\Debug\net8.0-windows\ref\lap07-QuanLyNhanVien Sử Dụng list view.dll

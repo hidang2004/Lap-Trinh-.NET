@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab05- Su Dung List Box - Quan ly tinh tien phong kham rang", "lab05- Su Dung List Box - Quan ly tinh tien phong kham rang.csproj", "{5F1C82EF-82DA-453C-9293-9AF691CBABAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F1C82EF-82DA-453C-9293-9AF691CBABAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1C82EF-82DA-453C-9293-9AF691CBABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1C82EF-82DA-453C-9293-9AF691CBABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1C82EF-82DA-453C-9293-9AF691CBABAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DF668B6-2047-40B5-8BC7-656B51F459DC}
+	EndGlobalSection
+EndGlobal

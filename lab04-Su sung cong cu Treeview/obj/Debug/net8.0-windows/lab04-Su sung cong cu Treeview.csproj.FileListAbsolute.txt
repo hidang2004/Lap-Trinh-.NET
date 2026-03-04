@@ -1,0 +1,17 @@
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\bin\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.exe
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\bin\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.deps.json
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\bin\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.runtimeconfig.json
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\bin\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.dll
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\bin\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.pdb
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04_Su_sung_cong_cu_Treeview.Form1.resources
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.csproj.GenerateResource.cache
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.AssemblyInfoInputs.cache
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.AssemblyInfo.cs
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.csproj.CoreCompileInputs.cache
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.dll
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\refint\lab04-Su sung cong cu Treeview.dll
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.pdb
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04-Su sung cong cu Treeview.genruntimeconfig.cache
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\ref\lab04-Su sung cong cu Treeview.dll
+D:\HOCHANH\LT.NET\lab04-Su sung cong cu Treeview\obj\Debug\net8.0-windows\lab04_Su_sung_cong_cu_Treeview.Properties.Resources.resources

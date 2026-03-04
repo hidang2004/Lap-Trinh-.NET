@@ -1,0 +1,14 @@
+D:\HOCHANH\LT.NET\Lab01\bin\Debug\net8.0\Lab01.exe
+D:\HOCHANH\LT.NET\Lab01\bin\Debug\net8.0\Lab01.deps.json
+D:\HOCHANH\LT.NET\Lab01\bin\Debug\net8.0\Lab01.runtimeconfig.json
+D:\HOCHANH\LT.NET\Lab01\bin\Debug\net8.0\Lab01.dll
+D:\HOCHANH\LT.NET\Lab01\bin\Debug\net8.0\Lab01.pdb
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.AssemblyInfoInputs.cache
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.AssemblyInfo.cs
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.csproj.CoreCompileInputs.cache
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.dll
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\refint\Lab01.dll
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.pdb
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\Lab01.genruntimeconfig.cache
+D:\HOCHANH\LT.NET\Lab01\obj\Debug\net8.0\ref\Lab01.dll

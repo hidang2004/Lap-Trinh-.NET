@@ -1,0 +1,16 @@
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\bin\Debug\net8.0-windows\lap06-QLsinhVien.exe
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\bin\Debug\net8.0-windows\lap06-QLsinhVien.deps.json
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\bin\Debug\net8.0-windows\lap06-QLsinhVien.runtimeconfig.json
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\bin\Debug\net8.0-windows\lap06-QLsinhVien.dll
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\bin\Debug\net8.0-windows\lap06-QLsinhVien.pdb
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06_QLsinhVien.Form1.resources
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.csproj.GenerateResource.cache
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.AssemblyInfoInputs.cache
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.AssemblyInfo.cs
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.csproj.CoreCompileInputs.cache
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.dll
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\refint\lap06-QLsinhVien.dll
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.pdb
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\lap06-QLsinhVien.genruntimeconfig.cache
+D:\HOCHANH\LT.NET\lap06-QLsinhVien\obj\Debug\net8.0-windows\ref\lap06-QLsinhVien.dll

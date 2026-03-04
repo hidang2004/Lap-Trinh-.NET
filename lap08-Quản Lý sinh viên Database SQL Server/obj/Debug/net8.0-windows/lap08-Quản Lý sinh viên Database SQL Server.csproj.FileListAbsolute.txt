@@ -1,0 +1,66 @@
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.exe
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.deps.json
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.runtimeconfig.json
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.pdb
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.csproj.AssemblyReference.cache
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.csproj.GenerateResource.cache
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.AssemblyInfoInputs.cache
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.AssemblyInfo.cs
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.csproj.CoreCompileInputs.cache
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Qu.D29E1229.Up2Date
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\refint\lap08-Quản Lý sinh viên Database SQL Server.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.pdb
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08-Quản Lý sinh viên Database SQL Server.genruntimeconfig.cache
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\ref\lap08-Quản Lý sinh viên Database SQL Server.dll
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08_Quản_Lý_sinh_viên_Database_SQL_Server.FormMain.resources
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08_Quản_Lý_sinh_viên_Database_SQL_Server.FormMonHoc.resources
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08_Quản_Lý_sinh_viên_Database_SQL_Server.FormSinhVien.resources
+D:\HOCHANH\LT.NET\lap08-Quản Lý sinh viên Database SQL Server\obj\Debug\net8.0-windows\lap08_Quản_Lý_sinh_viên_Database_SQL_Server.Properties.Resources.resources
