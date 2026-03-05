@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace lap08_StudentMS
 {
@@ -23,37 +17,37 @@ namespace lap08_StudentMS
 		public FormMon()
 		{
 			InitializeComponent();
-			this.Load += FormMonHoc_Load;
+			this.Load += FormMon_Load;
 		}
 
 		// ================= LOAD =================
-		private void FormMonHoc_Load(object sender, EventArgs e)
+		private void FormMon_Load(object sender, EventArgs e)
 		{
 			try
 			{
-				dtMon.Clear();
-
-				// 🔥 Sửa tên bảng thành Mon
 				da = new SqlDataAdapter("SELECT * FROM Mon", conn);
 				da.Fill(dtMon);
-
-				if (dtMon.Rows.Count == 0)
-				{
-					MessageBox.Show("Bảng Môn đang rỗng!");
-				}
 
 				bds.DataSource = dtMon;
 				dataGridViewMonHoc.DataSource = bds;
 
-				// Clear binding cũ
+				// Binding textbox
 				txtMaMonHoc.DataBindings.Clear();
 				txtTenMonHoc.DataBindings.Clear();
 				txtSoTiet.DataBindings.Clear();
 
-				// 🔥 Sửa tên cột đúng theo bảng Mon
-				txtMaMonHoc.DataBindings.Add("Text", bds, "MaMH", true);
-				txtTenMonHoc.DataBindings.Add("Text", bds, "TenMH", true);
-				txtSoTiet.DataBindings.Add("Text", bds, "SoTiet", true);
+				txtMaMonHoc.DataBindings.Add("Text", bds, "MaMH", true, DataSourceUpdateMode.OnPropertyChanged);
+				txtTenMonHoc.DataBindings.Add("Text", bds, "TenMH", true, DataSourceUpdateMode.OnPropertyChanged);
+				txtSoTiet.DataBindings.Add("Text", bds, "SoTiet", true, DataSourceUpdateMode.OnPropertyChanged);
+
+				// bỏ chọn dòng
+				dataGridViewMonHoc.ClearSelection();
+				bds.Position = -1;
+
+				// textbox trống
+				txtMaMonHoc.Clear();
+				txtTenMonHoc.Clear();
+				txtSoTiet.Clear();
 			}
 			catch (Exception ex)
 			{
@@ -64,52 +58,58 @@ namespace lap08_StudentMS
 		// ================= THÊM =================
 		private void btnThem_Click(object sender, EventArgs e)
 		{
-			bds.AddNew();
-
-			if (bds.Current != null)
+			if (txtMaMonHoc.Text.Trim() == "")
 			{
-				DataRowView row = (DataRowView)bds.Current;
-				row["SoTiet"] = 45;
+				MessageBox.Show("Vui lòng nhập Mã môn học!");
+				txtMaMonHoc.Focus();
+				return;
 			}
 
-			bds.ResetCurrentItem();
+			if (txtTenMonHoc.Text.Trim() == "")
+			{
+				MessageBox.Show("Vui lòng nhập Tên môn học!");
+				txtTenMonHoc.Focus();
+				return;
+			}
+
+			if (txtSoTiet.Text.Trim() == "")
+			{
+				MessageBox.Show("Vui lòng nhập Số tiết!");
+				txtSoTiet.Focus();
+				return;
+			}
+
+			DataRow row = dtMon.NewRow();
+			row["MaMH"] = txtMaMonHoc.Text;
+			row["TenMH"] = txtTenMonHoc.Text;
+			row["SoTiet"] = txtSoTiet.Text;
+
+			dtMon.Rows.Add(row);
+
+			MessageBox.Show("Thêm thành công!");
+
+			txtMaMonHoc.Clear();
+			txtTenMonHoc.Clear();
+			txtSoTiet.Clear();
+
 			txtMaMonHoc.Focus();
 		}
 
 		// ================= XÓA =================
 		private void btnXoa_Click(object sender, EventArgs e)
 		{
-			if (bds.Count == 0 || bds.Current == null)
+			if (bds.Current == null)
 			{
-				MessageBox.Show("Không có môn để xóa.");
+				MessageBox.Show("Chưa chọn môn để xóa");
 				return;
 			}
 
-			DataRowView row = (DataRowView)bds.Current;
-			string tenMon = row["TenMH"].ToString();
-
-			DialogResult result = MessageBox.Show(
-				$"Bạn có chắc muốn xóa môn {tenMon} không?",
+			if (MessageBox.Show("Bạn có chắc muốn xóa?",
 				"Xác nhận",
-				MessageBoxButtons.YesNo);
-
-			if (result == DialogResult.Yes)
+				MessageBoxButtons.YesNo) == DialogResult.Yes)
 			{
-				try
-				{
-					bds.RemoveCurrent();
-
-					SqlCommandBuilder builder = new SqlCommandBuilder(da);
-
-					MessageBox.Show("Đã xóa thành công!");
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show("Lỗi khi xóa: " + ex.Message);
-
-					dtMon.Clear();
-					da.Fill(dtMon);
-				}
+				bds.RemoveCurrent();
+				MessageBox.Show("Xóa thành công (chỉ trong chương trình)");
 			}
 		}
 
@@ -119,18 +119,13 @@ namespace lap08_StudentMS
 			try
 			{
 				this.Validate();
-				bds.EndEdit();
+				bds.EndEdit();   // kết thúc chỉnh sửa
 
-				SqlCommandBuilder builder = new SqlCommandBuilder(da);
-
-				MessageBox.Show("Đã lưu dữ liệu thành công!");
+				MessageBox.Show("Lưu thành công (chỉ trong chương trình)");
 			}
 			catch (Exception ex)
 			{
-				MessageBox.Show("Lỗi CSDL: " + ex.Message);
-
-				dtMon.Clear();
-				da.Fill(dtMon);
+				MessageBox.Show("Lỗi: " + ex.Message);
 			}
 		}
 	}

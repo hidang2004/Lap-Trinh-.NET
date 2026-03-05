@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace lap08_StudentMS
 {
@@ -23,6 +17,8 @@ namespace lap08_StudentMS
 		public FormKhoa()
 		{
 			InitializeComponent();
+			this.Load += FormKhoa_Load;
+			bool isAdding = false;
 		}
 
 		// ================= LOAD =================
@@ -31,21 +27,25 @@ namespace lap08_StudentMS
 			try
 			{
 				da = new SqlDataAdapter("SELECT * FROM Khoa", conn);
-
-				// tự sinh INSERT UPDATE DELETE
-				SqlCommandBuilder builder = new SqlCommandBuilder(da);
-
 				da.Fill(dtKhoa);
 
 				bds.DataSource = dtKhoa;
 				dgvKhoa.DataSource = bds;
 
-				// ===== Binding textbox =====
+				// Binding textbox
 				txtMaKhoa.DataBindings.Clear();
 				txtTenKhoa.DataBindings.Clear();
 
-				txtMaKhoa.DataBindings.Add("Text", bds, "MaKhoa", true);
-				txtTenKhoa.DataBindings.Add("Text", bds, "TenKhoa", true);
+				txtMaKhoa.DataBindings.Add("Text", bds, "MaKhoa", true, DataSourceUpdateMode.OnPropertyChanged);
+				txtTenKhoa.DataBindings.Add("Text", bds, "TenKhoa", true, DataSourceUpdateMode.OnPropertyChanged);
+
+				// 🔥 QUAN TRỌNG: bỏ chọn dòng
+				dgvKhoa.ClearSelection();
+				bds.Position = -1;
+
+				// textbox trống
+				txtMaKhoa.Clear();
+				txtTenKhoa.Clear();
 			}
 			catch (Exception ex)
 			{
@@ -56,7 +56,27 @@ namespace lap08_StudentMS
 		// ================= THÊM =================
 		private void btnThem_Click(object sender, EventArgs e)
 		{
-			bds.AddNew();
+			if (txtMaKhoa.Text.Trim() == "")
+			{
+				MessageBox.Show("Vui lòng nhập Mã khoa!");
+				txtMaKhoa.Focus();
+				return;
+			}
+
+			if (txtTenKhoa.Text.Trim() == "")
+			{
+				MessageBox.Show("Vui lòng nhập Tên khoa!");
+				txtTenKhoa.Focus();
+				return;
+			}
+
+			DataRow row = dtKhoa.NewRow();
+			row["MaKhoa"] = txtMaKhoa.Text;
+			row["TenKhoa"] = txtTenKhoa.Text;
+
+			dtKhoa.Rows.Add(row);
+
+			MessageBox.Show("Thêm thành công!");
 
 			txtMaKhoa.Clear();
 			txtTenKhoa.Clear();
@@ -67,9 +87,9 @@ namespace lap08_StudentMS
 		// ================= XÓA =================
 		private void btnXoa_Click(object sender, EventArgs e)
 		{
-			if (bds.Count == 0 || bds.Current == null)
+			if (bds.Current == null)
 			{
-				MessageBox.Show("Không có dữ liệu để xóa");
+				MessageBox.Show("Chưa chọn dòng để xóa");
 				return;
 			}
 
@@ -89,19 +109,7 @@ namespace lap08_StudentMS
 			try
 			{
 				this.Validate();
-				bds.EndEdit();
-
-				if (txtMaKhoa.Text.Trim() == "")
-				{
-					MessageBox.Show("Vui lòng nhập Mã Khoa!");
-					return;
-				}
-
-				if (txtTenKhoa.Text.Trim() == "")
-				{
-					MessageBox.Show("Vui lòng nhập Tên Khoa!");
-					return;
-				}
+				bds.EndEdit();   // kết thúc chỉnh sửa
 
 				MessageBox.Show("Lưu thành công (chỉ trong chương trình)");
 			}
@@ -109,6 +117,6 @@ namespace lap08_StudentMS
 			{
 				MessageBox.Show("Lỗi: " + ex.Message);
 			}
-     	}
+		}
 	}
 }

@@ -91,13 +91,11 @@
 			// 
 			// dataGridViewMonHoc
 			// 
-			dataGridViewMonHoc.AllowUserToAddRows = false;
 			dataGridViewMonHoc.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 			dataGridViewMonHoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			dataGridViewMonHoc.Location = new Point(3, 218);
 			dataGridViewMonHoc.MultiSelect = false;
 			dataGridViewMonHoc.Name = "dataGridViewMonHoc";
-			dataGridViewMonHoc.RowHeadersVisible = false;
 			dataGridViewMonHoc.RowHeadersWidth = 51;
 			dataGridViewMonHoc.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 			dataGridViewMonHoc.Size = new Size(797, 231);
@@ -150,7 +148,6 @@
 			Controls.Add(label1);
 			Name = "FormMon";
 			Text = "FormMonHoc";
-			Load += FormMonHoc_Load;
 			((System.ComponentModel.ISupportInitialize)dataGridViewMonHoc).EndInit();
 			ResumeLayout(false);
 			PerformLayout();

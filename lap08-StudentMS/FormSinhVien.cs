@@ -30,6 +30,7 @@ namespace lap08_StudentMS
 			{
 				// --- BƯỚC 1: Lấy dữ liệu Khoa đổ vào ComboBox ---
 				SqlDataAdapter daKhoa = new SqlDataAdapter("SELECT MaKhoa, TenKhoa FROM Khoa", conn);
+				dtKhoa.Clear();
 				daKhoa.Fill(dtKhoa);
 
 				comboBoxMaKhoa.DataSource = dtKhoa;
@@ -42,6 +43,7 @@ namespace lap08_StudentMS
 				// QUAN TRỌNG: Dòng này tự động tạo lệnh INSERT, UPDATE, DELETE
 				SqlCommandBuilder builder = new SqlCommandBuilder(da);
 
+				dtSinhVien.Clear();
 				da.Fill(dtSinhVien);
 
 				// --- BƯỚC 3: Thiết lập BindingSource ---
@@ -74,7 +76,25 @@ namespace lap08_StudentMS
 				radioButtonNam.DataBindings.Add("Checked", bds, "GioiTinh", true, DataSourceUpdateMode.OnPropertyChanged);
 
 				// Logic hiển thị: Khi nút Nam thay đổi, nút Nữ sẽ ngược lại
-				radioButtonNam.CheckedChanged += (s, args) => { radioButtonNu.Checked = !radioButtonNam.Checked; };
+				radioButtonNam.CheckedChanged += (s, args) => { radioButtonNu.Checked = !radioButtonNam.Checked;
+			};
+				// ===== BỎ CHỌN GRID =====
+				dataGridViewSinhVien.ClearSelection();
+				bds.Position = -1;
+
+				// ===== TEXTBOX TRỐNG =====
+				txtMaSoSV.Clear();
+				txtHoTen.Clear();
+				txtDiaChi.Clear();
+				txtSoDienThoai.Clear();
+
+				dtpNgaySinh.Value = DateTime.Now;
+
+				radioButtonNam.Checked = false;
+				radioButtonNu.Checked = false;
+
+				if (dtKhoa.Rows.Count > 0)
+					comboBoxMaKhoa.SelectedIndex = 0;
 			}
 			catch (Exception ex)
 			{

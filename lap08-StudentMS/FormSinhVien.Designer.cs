@@ -53,6 +53,7 @@
 			// 
 			// dataGridViewSinhVien
 			// 
+			dataGridViewSinhVien.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 			dataGridViewSinhVien.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			dataGridViewSinhVien.Location = new Point(1, 291);
 			dataGridViewSinhVien.Name = "dataGridViewSinhVien";
